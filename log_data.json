@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260519ieri",
+        "data":  "2026-05-19",
+        "ora":  "",
+        "tipoSintomo":  "Altro",
+        "dosaggio":  "400mg",
+        "note":  "Brufen per mal di gola e raffreddore",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260520oggi",
+        "data":  "2026-05-20",
+        "ora":  "",
+        "tipoSintomo":  "Altro",
+        "dosaggio":  "400mg",
+        "note":  "Brufen per mal di gola e raffreddore",
+        "efficacia":  "buona"
+    }
+]
