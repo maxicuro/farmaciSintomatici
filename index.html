@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log Farmaci Sintomatici – Scali Massimo</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;font-size:14px;background:#f0f2f5;color:#222;min-height:100vh}
+.header{background:#4A235A;color:#fff;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.main{max-width:1080px;margin:0 auto;padding:14px}
+.card{background:#fff;border:1px solid #dde;border-radius:8px;padding:14px;margin-bottom:10px}
+.card h2{font-size:12px;font-weight:700;color:#666;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+button{font-family:inherit;font-size:13px;padding:5px 12px;border:1px solid #ccc;border-radius:6px;cursor:pointer;background:#fff;color:#333}
+button:hover{background:#f0f0f0}
+button:disabled{opacity:.45;cursor:not-allowed}
+.btn-primary{background:#4A235A;color:#fff;border-color:#4A235A}
+.btn-primary:hover{background:#361843}
+.btn-green{background:#1E8449;color:#fff;border-color:#1E8449}
+.btn-green:hover{background:#155f33}
+input,select,textarea{width:100%;padding:6px 9px;border:1px solid #ccc;border-radius:6px;font-family:inherit;font-size:13px;color:#222;background:#fff}
+input:focus,select:focus,textarea:focus{outline:2px solid #4A235A;outline-offset:-1px}
+.lbl{font-size:12px;color:#666;display:block;margin-bottom:3px;margin-top:8px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 14px}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:10px}
+.stat{background:#fff;border:1px solid #dde;border-radius:8px;padding:12px;text-align:center}
+.stat .val{font-size:26px;font-weight:700;margin-bottom:2px}
+.stat .lbl2{font-size:11px;color:#888}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:#f5f5f7;text-align:left;padding:7px 10px;font-size:11px;font-weight:700;color:#666;text-transform:uppercase;border-bottom:2px solid #eee;white-space:nowrap}
+td{padding:7px 10px;border-bottom:1px solid #f0f0f0;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#fafafa}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle}
+.pain-bar{display:flex;align-items:center;gap:3px}
+.pain-seg{height:10px;border-radius:2px;flex:1;min-width:7px;max-width:12px}
+.empty{text-align:center;color:#aaa;padding:28px;font-size:13px}
+.bi{padding:2px 7px;font-size:14px;border:none;background:none;cursor:pointer;color:#999;border-radius:4px}
+.bi:hover{background:#f0f0f0;color:#333}
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:100;align-items:center;justify-content:center}
+.modal-bg.open{display:flex}
+.modal{background:#fff;border-radius:10px;padding:20px;width:460px;max-width:96vw;max-height:90vh;overflow-y:auto}
+.mfooter{display:flex;gap:8px;margin-top:12px;justify-content:flex-end;align-items:center}
+#chartWrap{position:relative;width:100%;height:200px}
+.filter-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.filter-bar select{width:auto}
+.msg{padding:8px 12px;border-radius:6px;font-size:12px;margin-bottom:8px;display:none}
+.msg.ok{background:#D4EDDA;color:#155724}
+.msg.err{background:#f8d7da;color:#721c24}
+.msg.info{background:#d1ecf1;color:#0c5460}
+@media(max-width:600px){.stat-grid{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div style="font-size:16px;font-weight:600">Log Farmaci Sintomatici</div>
+    <div style="font-size:12px;opacity:.75;margin-top:1px">Scali Massimo · 06/10/1963 · Imola</div>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+    <button class="btn-green" onclick="syncFromGitHub()" id="btnSync">&#8645; Aggiorna</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="stat-grid" id="stats"></div>
+  <div id="msg" class="msg"></div>
+
+  <div class="card">
+    <h2>Frequenza mensile</h2>
+    <div id="chartWrap"><canvas id="chart"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>Registro assunzioni</h2>
+    <div class="filter-bar">
+      <select id="fFarm" onchange="render()"><option value="">Tutti i farmaci</option></select>
+      <select id="fMesi" onchange="render()">
+        <option value="">Tutto</option>
+        <option value="3">Ultimi 3 mesi</option>
+        <option value="6">Ultimi 6 mesi</option>
+        <option value="12">Ultimo anno</option>
+      </select>
+      <span id="countLbl" style="font-size:12px;color:#888;margin-left:auto"></span>
+    </div>
+    <div style="overflow-x:auto">
+      <table><thead><tr>
+        <th>Data</th><th>Ora</th><th>Farmaco</th><th>Dosaggio</th>
+        <th>Dolore</th><th>Tipo sintomo</th><th>Note</th><th>Efficacia</th>
+      </tr></thead><tbody id="tbody"></tbody></table>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+var RAW_URL = "https://raw.githubusercontent.com/maxicuro/farmaciSintomatici/main/log_data.json";
+var LOG = [];
+var chartInst = null;
+
+var FARM = [
+  {nome:"Maxalt RPD",  dose:"10mg",   col:"#534AB7"},
+  {nome:"Oki",         dose:"80mg",   col:"#D85A30"},
+  {nome:"Indoxen",     dose:"25mg",   col:"#BA7517"},
+  {nome:"Voltaren",    dose:"50mg",   col:"#185FA5"},
+  {nome:"Tachipirina", dose:"1000mg", col:"#0F6E56"},
+  {nome:"Ibuprofene",  dose:"400mg",  col:"#3B6D11"},
+  {nome:"Altro",       dose:"",       col:"#888"},
+];
+var EFF     = {buona:"✓ Buona", parziale:"~ Parziale", nessuna:"✗ Nessuna", "":"—"};
+var EFF_COL = {buona:"#1E8449", parziale:"#854F0B",    nessuna:"#A32D2D",   "":"#aaa"};
+
+function colF(n){var f=FARM.find(function(x){return x.nome===n;});return f?f.col:"#888";}
+function fmtD(s){if(!s)return"";return new Date(s+"T00:00:00").toLocaleDateString("it-IT",{day:"2-digit",month:"2-digit",year:"numeric"});}
+function pcol(v){if(!v)return"#ccc";if(v<=3)return"#1E8449";if(v<=6)return"#BA7517";return"#A32D2D";}
+function pbar(v){
+  if(!v)return"—";
+  var s="";for(var i=1;i<=10;i++)s+='<div class="pain-seg" style="background:'+(i<=v?pcol(v):"#eee")+'"></div>';
+  return'<div class="pain-bar">'+s+'<span style="font-size:12px;font-weight:700;color:'+pcol(v)+'"> '+v+'</span></div>';
+}
+function showMsg(type,txt){
+  var d=document.getElementById("msg");
+  d.className="msg "+type; d.textContent=txt; d.style.display="block";
+  if(type==="ok")setTimeout(function(){d.style.display="none";},4000);
+}
+
+function syncFromGitHub(){
+  var btn=document.getElementById("btnSync");
+  btn.disabled=true; btn.textContent="Aggiornamento...";
+  showMsg("info","Caricamento dati da GitHub...");
+  fetch(RAW_URL+"?t="+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(data){
+      LOG=data.sort(function(a,b){return b.data.localeCompare(a.data)||(b.ora||"").localeCompare(a.ora||"");});
+      showMsg("ok","Dati aggiornati — "+LOG.length+" assunzioni.");
+      btn.disabled=false; btn.textContent="⇅ Aggiorna";
+      render();
+    })
+    .catch(function(e){
+      showMsg("err","Errore di rete: "+e.message);
+      btn.disabled=false; btn.textContent="⇅ Aggiorna";
+    });
+}
+
+function renderStats(){
+  var now=new Date(), mk=now.getFullYear()+"-"+(now.getMonth()<9?"0":"")+(now.getMonth()+1);
+  var thisMon=LOG.filter(function(r){return r.data.startsWith(mk);});
+  var maxalt=LOG.filter(function(r){return r.farmaco==="Maxalt RPD";});
+  var pains=LOG.map(function(r){return r.livelloDolore;}).filter(Boolean);
+  var avgP=pains.length?(pains.reduce(function(a,b){return a+b;},0)/pains.length).toFixed(1):"—";
+  var mths={};LOG.forEach(function(r){var m=r.data.slice(0,7);mths[m]=(mths[m]||0)+1;});
+  var mv=Object.values(mths);var avgM=mv.length?(mv.reduce(function(a,b){return a+b;},0)/mv.length).toFixed(1):"—";
+  function s(v,l,c){return'<div class="stat"><div class="val" style="color:'+c+'">'+v+'</div><div class="lbl2">'+l+'</div></div>';}
+  document.getElementById("stats").innerHTML=
+    s(thisMon.length,"Questo mese","#4A235A")+
+    s(maxalt.length,"Maxalt totali","#534AB7")+
+    s(avgP,"Dolore medio","#D85A30")+
+    s(avgM,"Media/mese","#185FA5");
+}
+
+function getFiltered(){
+  var ff=document.getElementById("fFarm").value;
+  var fm=parseInt(document.getElementById("fMesi").value)||0;
+  var out=LOG.slice();
+  if(ff)out=out.filter(function(r){return r.farmaco===ff;});
+  if(fm){var cut=new Date();cut.setMonth(cut.getMonth()-fm);var cs=cut.toISOString().split("T")[0];out=out.filter(function(r){return r.data>=cs;});}
+  return out;
+}
+
+function renderTable(){
+  var data=getFiltered();
+  document.getElementById("countLbl").textContent=data.length+" assunzioni";
+  var tb=document.getElementById("tbody");
+  if(!data.length){tb.innerHTML='<tr><td colspan="8" class="empty">Nessun dato. Clicca "Aggiorna" per caricare.</td></tr>';return;}
+  tb.innerHTML=data.map(function(r){
+    return"<tr>"+
+      "<td style='white-space:nowrap'>"+fmtD(r.data)+"</td>"+
+      "<td style='color:#888;white-space:nowrap'>"+(r.ora||"—")+"</td>"+
+      "<td><span class='dot' style='background:"+colF(r.farmaco)+"'></span>"+r.farmaco+"</td>"+
+      "<td style='color:#666'>"+(r.dosaggio||"—")+"</td>"+
+      "<td>"+pbar(r.livelloDolore)+"</td>"+
+      "<td style='color:#555'>"+(r.tipoSintomo||"—")+"</td>"+
+      "<td style='color:#777;font-size:12px;max-width:180px'>"+(r.note||"—")+"</td>"+
+      "<td style='white-space:nowrap;color:"+EFF_COL[r.efficacia||""]+"'>"+EFF[r.efficacia||""]+"</td>"+
+      "</tr>";
+  }).join("");
+}
+
+function renderChart(){
+  var now=new Date(), months=[], labels=[];
+  for(var i=11;i>=0;i--){
+    var d=new Date(now.getFullYear(),now.getMonth()-i,1);
+    var mk=d.getFullYear()+"-"+(d.getMonth()<9?"0":"")+(d.getMonth()+1);
+    months.push(mk);
+    labels.push(["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"][d.getMonth()]+"'"+String(d.getFullYear()).slice(2));
+  }
+  var used=[];LOG.forEach(function(r){if(used.indexOf(r.farmaco)<0)used.push(r.farmaco);});
+  var datasets=used.map(function(n){
+    var c=colF(n);
+    return{label:n,data:months.map(function(m){return LOG.filter(function(r){return r.farmaco===n&&r.data.startsWith(m);}).length;}),backgroundColor:c+"99",borderColor:c,borderWidth:1.5};
+  });
+  if(chartInst){chartInst.destroy();chartInst=null;}
+  if(!datasets.length)return;
+  chartInst=new Chart(document.getElementById("chart"),{
+    type:"bar",data:{labels:labels,datasets:datasets},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:used.length>1,position:"bottom",labels:{font:{size:11},boxWidth:12}}},
+      scales:{x:{stacked:true,ticks:{autoSkip:false,maxRotation:45,font:{size:10}}},y:{stacked:true,beginAtZero:true,ticks:{stepSize:1,precision:0}}}}
+    }
+  });
+}
+
+function render(){renderStats();renderTable();renderChart();}
+
+// Popola filtro farmaci
+var ff=document.getElementById("fFarm");
+FARM.forEach(function(f){var o=document.createElement("option");o.value=f.nome;o.textContent=f.nome;ff.appendChild(o);});
+
+// Carica subito
+syncFromGitHub();
+window.addEventListener("resize",function(){if(chartInst)chartInst.resize();});
+</script>
+</body>
+</html>
