@@ -20,5 +20,16 @@
         "dosaggio":  "400mg",
         "note":  "Brufen per mal di gola e raffreddore",
         "efficacia":  "buona"
+    },
+    {
+        "id":  "s20260521brf3",
+        "data":  "2026-05-21",
+        "ora":  "08:00",
+        "farmaco":  "Ibuprofene",
+        "dosaggio":  "400mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "Altro",
+        "efficacia":  "buona",
+        "note":  "Brufen 1 compressa - mal di gola e raffreddore"
     }
 ]
