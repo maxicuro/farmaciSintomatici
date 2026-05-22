@@ -5,9 +5,20 @@
         "id":  "s20260519ieri",
         "data":  "2026-05-19",
         "ora":  "",
-        "tipoSintomo":  "Altro",
+        "tipoSintomo":  "Infiammazione gola",
         "dosaggio":  "400mg",
-        "note":  "Brufen per mal di gola e raffreddore",
+        "note":  "Brufen 1cp - raucedine e tosse",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260519ieri2",
+        "data":  "2026-05-19",
+        "ora":  "",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse (2a dose)",
         "efficacia":  "buona"
     },
     {
@@ -16,20 +27,64 @@
         "id":  "s20260520oggi",
         "data":  "2026-05-20",
         "ora":  "",
-        "tipoSintomo":  "Altro",
+        "tipoSintomo":  "Infiammazione gola",
         "dosaggio":  "400mg",
-        "note":  "Brufen per mal di gola e raffreddore",
+        "note":  "Brufen 1cp - raucedine e tosse",
         "efficacia":  "buona"
     },
     {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260520oggi2",
+        "data":  "2026-05-20",
+        "ora":  "",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse (2a dose)",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
         "id":  "s20260521brf3",
         "data":  "2026-05-21",
         "ora":  "08:00",
-        "farmaco":  "Ibuprofene",
+        "tipoSintomo":  "Infiammazione gola",
         "dosaggio":  "400mg",
-        "livelloDolore":  null,
-        "tipoSintomo":  "Altro",
-        "efficacia":  "buona",
-        "note":  "Brufen 1 compressa - mal di gola e raffreddore"
+        "note":  "Brufen 1cp - raucedine e tosse",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260521brf3b",
+        "data":  "2026-05-21",
+        "ora":  "",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse (2a dose)",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260522a",
+        "data":  "2026-05-22",
+        "ora":  "08:00",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260522b",
+        "data":  "2026-05-22",
+        "ora":  "",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse (2a dose)",
+        "efficacia":  "buona"
     }
 ]
