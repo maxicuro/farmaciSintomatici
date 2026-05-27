@@ -86,5 +86,27 @@
         "dosaggio":  "400mg",
         "note":  "Brufen 1cp - raucedine e tosse (2a dose)",
         "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Ibuprofene",
+        "livelloDolore":  3,
+        "id":  "s20260523a",
+        "data":  "2026-05-23",
+        "ora":  "",
+        "tipoSintomo":  "Infiammazione gola",
+        "dosaggio":  "400mg",
+        "note":  "Brufen 1cp - raucedine e tosse",
+        "efficacia":  "buona"
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  6,
+        "id":  "s20260527a",
+        "data":  "2026-05-27",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp - emicrania destra",
+        "efficacia":  ""
     }
 ]
