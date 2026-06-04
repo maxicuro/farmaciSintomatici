@@ -108,5 +108,16 @@
         "dosaggio":  "10mg",
         "note":  "Maxalt 1cp - emicrania destra",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  7,
+        "id":  "s20260529a",
+        "data":  "2026-05-29",
+        "ora":  "",
+        "tipoSintomo":  "Cefalea nucale bilaterale",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp - cefalea da nuca dx e sx",
+        "efficacia":  ""
     }
 ]
