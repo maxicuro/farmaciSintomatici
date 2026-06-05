@@ -119,5 +119,27 @@
         "dosaggio":  "10mg",
         "note":  "Maxalt 1cp - cefalea da nuca dx e sx",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260604a",
+        "data":  "2026-06-04",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare",
+        "dosaggio":  "800mg",
+        "note":  "1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260605a",
+        "data":  "2026-06-05",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare",
+        "dosaggio":  "800mg",
+        "note":  "1cp",
+        "efficacia":  ""
     }
 ]
