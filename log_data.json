@@ -141,5 +141,126 @@
         "dosaggio":  "800mg",
         "note":  "1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260606a",
+        "data":  "2026-06-06",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare",
+        "dosaggio":  "800mg",
+        "note":  "1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260606b",
+        "data":  "2026-06-06",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare",
+        "dosaggio":  "800mg",
+        "note":  "1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260607a",
+        "data":  "2026-06-07",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260607b",
+        "data":  "2026-06-07",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260608a",
+        "data":  "2026-06-08",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260608b",
+        "data":  "2026-06-08",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260609a",
+        "data":  "2026-06-09",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260609b",
+        "data":  "2026-06-09",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260610a",
+        "data":  "2026-06-10",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260610b",
+        "data":  "2026-06-10",
+        "ora":  "",
+        "tipoSintomo":  "Bruciore a urinare in diminuzione, gonfiore e pustole su prepuzio",
+        "dosaggio":  "800mg",
+        "note":  "1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260611a",
+        "data":  "2026-06-11",
+        "ora":  "",
+        "tipoSintomo":  "Fase regressiva",
+        "dosaggio":  "800mg",
+        "note":  "1cp",
+        "efficacia":  ""
     }
 ]
