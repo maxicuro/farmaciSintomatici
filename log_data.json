@@ -262,5 +262,38 @@
         "dosaggio":  "800mg",
         "note":  "1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260612a",
+        "data":  "2026-06-12",
+        "ora":  "",
+        "tipoSintomo":  "Fase regressiva",
+        "dosaggio":  "800mg",
+        "note":  "1cp - ancora rosso e infiammato",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Aciclovir",
+        "livelloDolore":  0,
+        "id":  "s20260613a",
+        "data":  "2026-06-13",
+        "ora":  "",
+        "tipoSintomo":  "Fase regressiva",
+        "dosaggio":  "800mg",
+        "note":  "1cp - ancora rosso e infiammato",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  5,
+        "id":  "s20260622a",
+        "data":  "2026-06-22",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
     }
 ]
