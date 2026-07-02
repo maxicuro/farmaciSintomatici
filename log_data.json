@@ -295,5 +295,16 @@
         "dosaggio":  "10mg",
         "note":  "Maxalt 1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  5,
+        "id":  "s20260701a",
+        "data":  "2026-07-01",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
     }
 ]
