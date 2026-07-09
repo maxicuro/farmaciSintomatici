@@ -328,5 +328,16 @@
         "dosaggio":  "10mg",
         "note":  "Maxalt 1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  4,
+        "id":  "s20260708a",
+        "data":  "2026-07-08",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp",
+        "efficacia":  ""
     }
 ]
