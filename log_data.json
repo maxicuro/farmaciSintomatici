@@ -361,5 +361,49 @@
         "dosaggio":  "220mg",
         "note":  "Momendol 1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  5,
+        "id":  "s20260721a",
+        "data":  "2026-07-21",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp (1a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  5,
+        "id":  "s20260721b",
+        "data":  "2026-07-21",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp (2a dose)",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  6,
+        "id":  "s20260726a",
+        "data":  "2026-07-26",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  5,
+        "id":  "s20260728a",
+        "data":  "2026-07-28",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
     }
 ]
