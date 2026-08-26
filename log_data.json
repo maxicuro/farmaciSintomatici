@@ -482,5 +482,16 @@
         "dosaggio":  "220mg",
         "note":  "Momendol 1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "",
+        "livelloDolore":  0,
+        "id":  "s20260808c",
+        "data":  "2026-08-08",
+        "ora":  "mattino",
+        "tipoSintomo":  "Svenimento",
+        "dosaggio":  "",
+        "note":  "Svenimento per pochi secondi al mattino appena alzato",
+        "efficacia":  ""
     }
 ]
