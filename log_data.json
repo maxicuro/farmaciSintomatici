@@ -504,5 +504,159 @@
         "dosaggio":  "",
         "note":  "Cefalea per tutta la giornata, non trattata con farmaci. Scomparsa spontaneamente durante il volo di ritorno dalla Cina",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260817a",
+        "data":  "2026-08-17",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "20 gocce",
+        "note":  "Su prescrizione psichiatra",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260818b",
+        "data":  "2026-08-18",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "20 gocce",
+        "note":  "Su prescrizione psichiatra",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260819a",
+        "data":  "2026-08-19",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "10 gocce",
+        "note":  "Riduzione dose su consiglio psichiatra",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260820a",
+        "data":  "2026-08-20",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "10 gocce",
+        "note":  "Riduzione dose su consiglio psichiatra",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260821a",
+        "data":  "2026-08-21",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "5 gocce",
+        "note":  "Ulteriore riduzione dose",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260821b",
+        "data":  "2026-08-21",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp alla sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260822a",
+        "data":  "2026-08-22",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "5 gocce",
+        "note":  "Ulteriore riduzione dose",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260822b",
+        "data":  "2026-08-22",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp alla sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Amitriptilina",
+        "livelloDolore":  0,
+        "id":  "s20260823a",
+        "data":  "2026-08-23",
+        "ora":  "",
+        "tipoSintomo":  "Pesantezza alla nuca / stato mentale oscurato",
+        "dosaggio":  "5 gocce",
+        "note":  "Ulteriore riduzione dose",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260823b",
+        "data":  "2026-08-23",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp alla sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260824a",
+        "data":  "2026-08-24",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp al mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260824b",
+        "data":  "2026-08-24",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp alla sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260825a",
+        "data":  "2026-08-25",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp al mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260825b",
+        "data":  "2026-08-25",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp alla sera. Pesantezza alla nuca in diminuzione. Stato mentale oscurato con alternanza fasi tranquille e fasi di paura di non tornare normale.",
+        "efficacia":  ""
     }
 ]
