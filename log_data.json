@@ -405,5 +405,82 @@
         "dosaggio":  "10mg",
         "note":  "Maxalt 1cp",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  6,
+        "id":  "s20260729a",
+        "data":  "2026-07-29",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  4,
+        "id":  "s20260806a",
+        "data":  "2026-08-06",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  4,
+        "id":  "s20260807a",
+        "data":  "2026-08-07",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania sinistra",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  5,
+        "id":  "s20260808a",
+        "data":  "2026-08-08",
+        "ora":  "",
+        "tipoSintomo":  "Cefalea",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  6,
+        "id":  "s20260808b",
+        "data":  "2026-08-08",
+        "ora":  "",
+        "tipoSintomo":  "Cefalea",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  7,
+        "id":  "s20260809a",
+        "data":  "2026-08-09",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 2cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Naproxene sodico",
+        "livelloDolore":  4,
+        "id":  "s20260818a",
+        "data":  "2026-08-18",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "220mg",
+        "note":  "Momendol 1cp",
+        "efficacia":  ""
     }
 ]
