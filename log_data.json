@@ -493,5 +493,16 @@
         "dosaggio":  "",
         "note":  "Svenimento per pochi secondi al mattino appena alzato",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "",
+        "livelloDolore":  0,
+        "id":  "s20260810a",
+        "data":  "2026-08-10",
+        "ora":  "",
+        "tipoSintomo":  "Cefalea",
+        "dosaggio":  "",
+        "note":  "Cefalea per tutta la giornata, non trattata con farmaci. Scomparsa spontaneamente durante il volo di ritorno dalla Cina",
+        "efficacia":  ""
     }
 ]
