@@ -779,5 +779,148 @@
         "dosaggio":  "1cp",
         "note":  "1cp mattino.",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260830a",
+        "data":  "2026-08-30",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260830b",
+        "data":  "2026-08-30",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260831a",
+        "data":  "2026-08-31",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260831b",
+        "data":  "2026-08-31",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260901a",
+        "data":  "2026-09-01",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260901b",
+        "data":  "2026-09-01",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260902a",
+        "data":  "2026-09-02",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260902b",
+        "data":  "2026-09-02",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Rizatriptan",
+        "livelloDolore":  8,
+        "id":  "s20260902c",
+        "data":  "2026-09-02",
+        "ora":  "",
+        "tipoSintomo":  "Emicrania destra",
+        "dosaggio":  "10mg",
+        "note":  "Maxalt 1cp",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260903a",
+        "data":  "2026-09-03",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260903b",
+        "data":  "2026-09-03",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260904a",
+        "data":  "2026-09-04",
+        "ora":  "mattino",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260904b",
+        "data":  "2026-09-04",
+        "ora":  "sera",
+        "tipoSintomo":  "Ansia / stato mentale oscurato",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp sera",
+        "efficacia":  ""
     }
 ]
