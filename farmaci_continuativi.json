@@ -1,0 +1,85 @@
+[
+    {
+        "id":  "fc001",
+        "principioAttivo":  "Testosterone",
+        "via":  "Transdermica",
+        "farmaco":  "Tostrex gel",
+        "frequenza":  "1 volta al giorno",
+        "fasi":  [
+                     {
+                         "dataInizio":  "2026-03-01",
+                         "dosaggio":  "5 scatti/die",
+                         "dataInizioNota":  "stimata (±2 mesi)",
+                         "note":  "Data inizio non certa",
+                         "prescrittore":  "Endocrinologo (senza nome)",
+                         "dataFine":  "2026-06-24"
+                     },
+                     {
+                         "dataInizio":  "2026-06-25",
+                         "dosaggio":  "3 scatti/die",
+                         "dataInizioNota":  "",
+                         "note":  "Terapia in corso",
+                         "prescrittore":  "Dott. Alessio D\u0027Eramo (Endocrinologo)",
+                         "dataFine":  null
+                     }
+                 ]
+    },
+    {
+        "id":  "fc002",
+        "principioAttivo":  "Bupropione cloridrato",
+        "via":  "Orale",
+        "farmaco":  "Bupropione",
+        "frequenza":  "1 volta al giorno (mattino)",
+        "fasi":  [
+                     {
+                         "dataInizio":  "2026-08-27",
+                         "dosaggio":  "1cp mattino",
+                         "dataInizioNota":  "",
+                         "note":  "Terapia in corso",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  null
+                     }
+                 ]
+    },
+    {
+        "id":  "fc003",
+        "principioAttivo":  "Alprazolam",
+        "via":  "Orale",
+        "farmaco":  "Xanax",
+        "frequenza":  "Variabile - vedi fasi",
+        "fasi":  [
+                     {
+                         "dataInizio":  "2026-08-21",
+                         "dosaggio":  "1cp sera",
+                         "dataInizioNota":  "",
+                         "note":  "",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  "2026-08-23"
+                     },
+                     {
+                         "dataInizio":  "2026-08-24",
+                         "dosaggio":  "1cp mattino + 1cp sera",
+                         "dataInizioNota":  "",
+                         "note":  "",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  "2026-08-29"
+                     },
+                     {
+                         "dataInizio":  "2026-08-30",
+                         "dosaggio":  "1cp mattino",
+                         "dataInizioNota":  "",
+                         "note":  "",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  "2026-09-03"
+                     },
+                     {
+                         "dataInizio":  "2026-09-04",
+                         "dosaggio":  "1cp sera",
+                         "dataInizioNota":  "",
+                         "note":  "Terapia in corso",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  null
+                     }
+                 ]
+    }
+]
