@@ -922,5 +922,93 @@
         "dosaggio":  "0.50mg",
         "note":  "Xanax 1cp sera",
         "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260905a",
+        "data":  "2026-09-05",
+        "ora":  "mattino",
+        "tipoSintomo":  "",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260905b",
+        "data":  "2026-09-05",
+        "ora":  "sera",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260906a",
+        "data":  "2026-09-06",
+        "ora":  "mattino",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260906b",
+        "data":  "2026-09-06",
+        "ora":  "sera",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260906c",
+        "data":  "2026-09-06",
+        "ora":  "mattino",
+        "tipoSintomo":  "",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260907a",
+        "data":  "2026-09-07",
+        "ora":  "mattino",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp mattino",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260907b",
+        "data":  "2026-09-07",
+        "ora":  "sera",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp sera",
+        "efficacia":  ""
+    },
+    {
+        "farmaco":  "Bupropione",
+        "livelloDolore":  0,
+        "id":  "s20260907c",
+        "data":  "2026-09-07",
+        "ora":  "mattino",
+        "tipoSintomo":  "",
+        "dosaggio":  "1cp",
+        "note":  "1cp mattino",
+        "efficacia":  ""
     }
 ]
