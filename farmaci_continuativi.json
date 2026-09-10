@@ -78,6 +78,14 @@
                          "dataInizioNota":  "",
                          "note":  "Terapia in corso",
                          "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  "2026-09-05"
+                     },
+                     {
+                         "dataInizio":  "2026-09-06",
+                         "dosaggio":  "2cp (mattino + sera)",
+                         "dataInizioNota":  "",
+                         "note":  "Terapia in corso",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
                          "dataFine":  null
                      }
                  ]
