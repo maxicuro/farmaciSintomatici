@@ -1670,5 +1670,16 @@
         "tipoSintomo":  "",
         "efficacia":  "",
         "note":  "Xanax 1cp mattino"
+    },
+    {
+        "farmaco":  "Alprazolam",
+        "livelloDolore":  0,
+        "id":  "s20260929c",
+        "data":  "2026-09-29",
+        "ora":  "sera",
+        "tipoSintomo":  "",
+        "dosaggio":  "0.50mg",
+        "note":  "Xanax 1cp sera",
+        "efficacia":  ""
     }
 ]
