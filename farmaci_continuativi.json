@@ -35,6 +35,14 @@
                          "dataInizio":  "2026-08-27",
                          "dosaggio":  "1cp mattino",
                          "dataInizioNota":  "",
+                         "note":  "",
+                         "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
+                         "dataFine":  "2026-09-13"
+                     },
+                     {
+                         "dataInizio":  "2026-09-14",
+                         "dosaggio":  "300mg 1cp mattino",
+                         "dataInizioNota":  "",
                          "note":  "Terapia in corso",
                          "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
                          "dataFine":  null
