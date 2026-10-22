@@ -45,7 +45,14 @@
                          "dataInizioNota":  "",
                          "note":  "Terapia in corso",
                          "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
-                         "dataFine":  null
+                         "dataFine":  "2026-10-14"
+                     },
+                     {
+                         "dataInizio":  "2026-10-15",
+                         "dataFine":  null,
+                         "dosaggio":  "150mg 1cp/die (mattino)",
+                         "prescrittore":  "Psichiatra dott.ssa Isabella Montefiori",
+                         "note":  "riduzione da 300mg"
                      }
                  ]
     },
@@ -95,6 +102,21 @@
                          "note":  "Terapia in corso",
                          "prescrittore":  "Dott.ssa Isabella Montefiori (Psichiatra)",
                          "dataFine":  null
+                     }
+                 ]
+    },
+    {
+        "id":  "fc004",
+        "farmaco":  "Olanzapina",
+        "principioAttivo":  "Olanzapina",
+        "formulation":  "compresse",
+        "fasi":  [
+                     {
+                         "dataInizio":  "2026-10-15",
+                         "dataFine":  null,
+                         "dosaggio":  "2.5mg 1cp/die (sera)",
+                         "prescrittore":  "Psichiatra dott.ssa Isabella Montefiori",
+                         "note":  "inizio terapia"
                      }
                  ]
     }
