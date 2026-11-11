@@ -3188,5 +3188,71 @@
         "tipoSintomo":  "Emicrania",
         "efficacia":  "",
         "note":  ""
+    },
+    {
+        "id":  "s20261109a",
+        "data":  "2026-11-09",
+        "ora":  "mattino",
+        "farmaco":  "Bupropione",
+        "dosaggio":  "150mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "",
+        "efficacia":  "",
+        "note":  ""
+    },
+    {
+        "id":  "s20261109b",
+        "data":  "2026-11-09",
+        "ora":  "sera",
+        "farmaco":  "Olanzapina",
+        "dosaggio":  "2.5mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "",
+        "efficacia":  "",
+        "note":  ""
+    },
+    {
+        "id":  "s20261109c",
+        "data":  "2026-11-09",
+        "ora":  "",
+        "farmaco":  "Rizatriptan",
+        "dosaggio":  "10mg",
+        "livelloDolore":  7,
+        "tipoSintomo":  "Emicrania",
+        "efficacia":  "",
+        "note":  ""
+    },
+    {
+        "id":  "s20261110a",
+        "data":  "2026-11-10",
+        "ora":  "mattino",
+        "farmaco":  "Bupropione",
+        "dosaggio":  "150mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "",
+        "efficacia":  "",
+        "note":  ""
+    },
+    {
+        "id":  "s20261110b",
+        "data":  "2026-11-10",
+        "ora":  "mattino",
+        "farmaco":  "Alprazolam",
+        "dosaggio":  "0.50mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "",
+        "efficacia":  "",
+        "note":  ""
+    },
+    {
+        "id":  "s20261110c",
+        "data":  "2026-11-10",
+        "ora":  "sera",
+        "farmaco":  "Olanzapina",
+        "dosaggio":  "2.5mg",
+        "livelloDolore":  null,
+        "tipoSintomo":  "",
+        "efficacia":  "",
+        "note":  ""
     }
 ]
